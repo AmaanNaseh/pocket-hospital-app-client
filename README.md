@@ -1,7 +1,8 @@
-# pocket-hospital-app
-Our app can be used by mainly doctors to track patient's treatment &amp; also by patients to check their dashboards. Special Feature of our app is Early Disease Detection for doctios (by Deep Learning).
-Developed by Team AL-FALAH including :
-Amaan Naseh (Team Admin, Deep learning Back-end Developer)
-Md Yusuf Azam (Team Member, ReactJS Front-end & MongoDB Backend Developer)
-Zian Malik (Team Member, UIUX Designer)
-Mohammad Rashid (Team member, Researcher)
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
