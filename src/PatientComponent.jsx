@@ -88,7 +88,7 @@ const PatientComponent = ({ details }) => {
 
                 <CancelButton setState={setPopUp} />
                 <div>
-                    <div className="flex flex-col justify-between w-64 mb-4">
+                    <div className="flex flex-col justify-between  mb-4">
                         <div className="flex items-center">
                             <span className="mr-2 font-bold">Name:</span>
                             <span>{patientsDetails.name}</span>
