@@ -84,7 +84,7 @@ const PatientComponent = ({ details }) => {
 
     return (
         <>
-            <div className={`popup p-4 rounded absolute bg-gray-200 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 ${!popUp ? "hidden" : "block"}`} ref={popUpRef}>
+            <div className={`popup p-4 rounded absolute w-1/2 bg-gray-200 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 ${!popUp ? "hidden" : "grid"}`} ref={popUpRef}>
 
                 <CancelButton setState={setPopUp} />
                 <div>
