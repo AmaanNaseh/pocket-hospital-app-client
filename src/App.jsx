@@ -9,6 +9,7 @@ import { useNavigate } from 'react-router-dom';
 import PatientProfile from './PatientProfile';
 import DoctorProfile from './DoctorProfile';
 import BookAppointment from './BookAppointment';
+import VideoCamera from './videoCamera'
 
 function App() {
   const history=useNavigate();
@@ -21,9 +22,6 @@ function App() {
     }
   }
 
-  // useEffect(()=>{
-  //   console.log(accessToken)
-  // },[accessToken])
 
   return (
     <>
@@ -34,6 +32,7 @@ function App() {
         <Route path='/profile/patient' element={<PatientProfile accessToken={accessToken}/>}></Route>
         <Route path='/profile/doctor' element={<DoctorProfile accessToken={accessToken}/>}></Route>
         <Route path='/bookappointment' element={<BookAppointment accessToken={accessToken}/>}></Route>
+        <Route path='/videocamera' element={<VideoCamera/>}></Route>
       </Routes>
     </>
   )
